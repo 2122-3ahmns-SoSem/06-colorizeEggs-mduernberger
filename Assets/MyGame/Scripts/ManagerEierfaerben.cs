@@ -41,6 +41,11 @@ public class ManagerEierfaerben : MonoBehaviour
 
     private void Update()
     {
+        SetRedDoneValue();
+        SetGreenDoneValue();
+        SetBlueDoneValue();
+        SetWhiteDoneValue();
+
         if(eggs[maxOrderEggs-1].inBasket)
         {
             overlay.gameObject.SetActive(true);
@@ -88,6 +93,10 @@ public class ManagerEierfaerben : MonoBehaviour
     public void TurnOnLamps(bool on)
     {
 
+        foreach (Lamp lamp in lamps)
+        {
+            lamp.SwitchOn(false);
+        }
     }
 
     public void GenerateOrder()

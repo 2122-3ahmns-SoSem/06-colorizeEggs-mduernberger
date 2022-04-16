@@ -41,6 +41,7 @@ public class Ei : MonoBehaviour
             if (GetComponent<Image>().color == Color.red)
             {
                 myManager.doneRed++;
+           
             }
             else if (GetComponent<Image>().color == Color.blue)
             {
