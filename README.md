@@ -8,4 +8,4 @@ If all eggs are colored correctly, you have won. If not, you have lost. After th
 WebGL build: https://2122-3ahmns-sosem.github.io/colorizeEggs-Template/
 
 Developmentplatform: 
-Todo
+Windows 10, Unity version 2020.3.18f1, Visual Studio Community 2019
