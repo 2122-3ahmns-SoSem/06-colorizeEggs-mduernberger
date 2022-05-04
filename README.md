@@ -9,3 +9,8 @@ WebGL build: https://2122-3ahmns-sosem.github.io/colorizeEggs-Template/
 
 Developmentplatform: 
 Windows 10, Unity version 2020.3.18f1, Visual Studio Community 2019
+
+### Lessons Learned:
+* using array
+* making Parallax-Effect
+* connect button with code
